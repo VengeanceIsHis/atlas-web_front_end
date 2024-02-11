@@ -10,18 +10,23 @@ body {
     color: var(--text-color)
 }
 a[href]:not(:empty) {
-    text-decoration: none;
-    color: #161616;
-}
-a[href]:not(:empty):visited {
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  /* Visited state for links */
+  a[href]:not(:empty):visited {
     font-style: italic;
-}
-a[href]:not(:empty):hover {
+  }
+  
+  /* Hover effect for links */
+  a[href]:not(:empty):hover {
     text-decoration: underline;
-}
-a[href]:not(:empty):active {
+  }
+  
+  /* Active state for links */
+  a[href]:not(:empty):active {
     background-color: var(--color-light-grey);
-}
+  }
 .visually-hidden {
     display: none;
 }
