@@ -37,6 +37,7 @@ a:link {
     padding: var(--section-padding);
 }
 .section-header {
+    padding: var(--section-header-padding);
     text-align: var(--section-header-align);
 }
 .section-body {
@@ -44,6 +45,7 @@ a:link {
     
 }
 .section-footer {
+    text-align: var(--section-footer-align);
     padding: var(--section-footer-padding);
 }
 .section-title {
