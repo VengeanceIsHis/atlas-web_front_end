@@ -9,7 +9,7 @@ body {
     font-family: var(--font-family-base);
     color: var(--text-color)
 }
-a {
+a:not(:empty) {
     text-decoration: none;
     color: #161616;
 }
