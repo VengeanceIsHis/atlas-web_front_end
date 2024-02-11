@@ -9,17 +9,17 @@ body {
     font-family: var(--font-family-base);
     color: var(--text-color)
 }
-a:not(:empty) {
+a[href]:not(:empty) {
     text-decoration: none;
     color: #161616;
 }
-a:not(:empty):visited {
+a[href]:not(:empty):visited {
     font-style: italic;
 }
-a:not(:empty):hover {
+a[href]:not(:empty):hover {
     text-decoration: underline;
 }
-a:not(:empty):active {
+a[href]:not(:empty):active {
     background-color: var(--color-light-grey);
 }
 .visually-hidden {
