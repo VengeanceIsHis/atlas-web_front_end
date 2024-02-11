@@ -73,7 +73,7 @@ a:link {
     --nav-item-letter-spacing: 4%;
     --nav-item-display: inline-block;
     --nav-item-margin:  3rem;
-    --nav-item-link-hover: var(--color-primary)
+    --nav-item-link-hover: var(--color-primary);
     --padding-top-bottom: calc(var(--font-size-small) * 0.5);
     --padding-left-right: var(--font-size-small);
     --section-padding: 5rem 0;
@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
     list-style: none;
     margin: 0;
     padding: 0;
-    text-align: 0;
+    text-align: center;
 }
 .nav .nav-items {
     font-family: var(--nav-item-font-family);
