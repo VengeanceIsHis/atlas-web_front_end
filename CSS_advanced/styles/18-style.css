@@ -131,8 +131,8 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     padding-top: 50%;
     padding-bottom: 50%;
-    padding-left: var(--section-padding);
-    padding-right: var(--section-padding);
+    padding-left: var(--section-body-padding);
+    padding-right: var(--section-body-padding);
 }
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
