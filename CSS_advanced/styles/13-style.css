@@ -14,17 +14,17 @@ a[href]:not(:empty) {
   }
   
   /* Visited state for links */
-  a[href]:not(:empty):visited {
+  a[href]:visited {
     font-style: italic;
   }
   
   /* Hover effect for links */
-  a[href]:not(:empty):hover {
+  a[href]:hover {
     text-decoration: underline;
   }
   
   /* Active state for links */
-  a[href]:not(:empty):active {
+  a[href]:active {
     background-color: var(--color-light-grey);
   }
 .visually-hidden {
