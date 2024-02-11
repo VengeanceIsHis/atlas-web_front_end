@@ -26,6 +26,7 @@ a {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     color: color-primary;
+    font-weight: var(--font-weight-bold);
 }
 :root {
     --section-tagline-transform: uppercase;
