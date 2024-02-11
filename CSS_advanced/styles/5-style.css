@@ -14,10 +14,10 @@ a {
     display: none;
 }
 .card-category {
-    color: color-primary
+    color: color-primary;
 }
 .section-tagline {
-    color: color-primary
+    color: color-primary;
 }
 :root {
     --font-size-small: 1.2rem;
@@ -77,4 +77,3 @@ a {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
 }
->>>>>>> 6d6a0a0261c4b453d9bd8aa3680e15f90bd3fbc5
