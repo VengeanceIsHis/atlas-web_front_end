@@ -9,19 +9,19 @@ body {
     font-family: var(--font-family-base);
     color: var(--text-color)
 }
-a:link {
+a[href]:link {
     text-decoration: none; /* Remove default underline */
   }
   /* Visited state for links */
-  a:link:visited {
+  a[href]:visited {
     font-style: italic;
   }
   /* Hover effect for links */
-  a:link:hover {
+  a[href]:hover {
     text-decoration: underline;
   }
   /* Active state for links */
-  a:link:active {
+  a[href]:active {
     background-color: var(--color-light-grey);
   }
 .visually-hidden {
