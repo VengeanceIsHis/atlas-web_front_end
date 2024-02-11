@@ -131,7 +131,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav .nav-link {
     display: block;
-    padding: var(--padding-top-bottom) var(--padding-left-right);
+    padding-bottom: var(--section-padding) 0;
+    padding-left: var(--section-padding);
+    padding-right: var(--section-padding);
 }
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
