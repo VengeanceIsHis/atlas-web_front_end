@@ -3,7 +3,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-size: font-size-medium;
+    font-size: var(--font-size-medium);
     font-family: var(--font-family-base);
     color: var(--text-color)
 }
@@ -36,3 +36,4 @@ a {
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
+}
