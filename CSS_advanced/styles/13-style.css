@@ -12,17 +12,14 @@ body {
 a:link {
     text-decoration: none; /* Remove default underline */
   }
-  
   /* Visited state for links */
   a:link:visited {
     font-style: italic;
   }
-  
   /* Hover effect for links */
   a:link:hover {
     text-decoration: underline;
   }
-  
   /* Active state for links */
   a:link:active {
     background-color: var(--color-light-grey);
