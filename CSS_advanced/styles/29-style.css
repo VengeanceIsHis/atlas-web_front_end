@@ -258,7 +258,7 @@ ul.footer {
     left: var(--header-logo-link-left);
 }
 .nav .nav-link::before {
-    content: empty;
+    content: "";
     top: 0;
     left: 0;
     background-color: var(--color-white);
