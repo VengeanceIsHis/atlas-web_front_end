@@ -231,8 +231,7 @@ ul.footer {
     color: var(--color-primary);
 }
 .section-hero {
-    width: 90rem;
-    height: auto;
+    background-size: 90rem auto;
 }
 .section-hero .section-title {
     margin-bottom: 5rem;
