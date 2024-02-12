@@ -186,6 +186,6 @@ ul.footer {
 }
 .card-services a {
     display: block;
-    padding: var(--font-size-medium) var(--font-size-medium);
+    padding: 2rem;
     background-color: var(--color-light-grey);
 }
