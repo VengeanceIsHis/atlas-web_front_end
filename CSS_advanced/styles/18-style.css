@@ -129,8 +129,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav .nav-link {
     display: block;
-    padding-top: 50%;
-    padding-bottom: 50%;
+    padding-top: calc(50% - var(--section-padding));
+    padding-bottom: calc(50% - var(--section-padding));
     padding-left: var(--section-padding);
     padding-right: var(--section-padding);
 }
