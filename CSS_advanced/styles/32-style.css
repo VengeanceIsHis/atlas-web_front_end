@@ -225,7 +225,7 @@ ul.footer {
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
     transition-duration: var(--transition-duration);
-    transition: color 0.3 ease, background-colo 0.3 ease;
+    transition-property: background-color;
 }
 .card-testimonial {
     text-align: center;
