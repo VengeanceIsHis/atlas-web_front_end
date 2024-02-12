@@ -83,7 +83,7 @@ a:link {
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
     --section-title-margin: 0;
-    --section-title-color: var(--color-white);
+    --section-title-color: var(--color-black);
     --section-tagline-transform: uppercase;
     --section-header-align: center;
     --line-height-small: 1.2;
@@ -103,7 +103,7 @@ a:link {
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-    --text-color: var(--color-white);
+    --text-color: var(--color-black);
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
@@ -169,4 +169,6 @@ ul.footer {
 }
 [data-section-theme="dark"] {
     background-color: var(--color-black);
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
 }
