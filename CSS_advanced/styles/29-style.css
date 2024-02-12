@@ -266,3 +266,7 @@ ul.footer {
     width: 0;
     height: .2rem
 }
+.nav .nav-item:hover .nav-link::before {
+    background-color: var(--color-primary);
+    width: 100%;
+}
