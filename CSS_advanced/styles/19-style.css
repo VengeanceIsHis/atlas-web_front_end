@@ -147,7 +147,7 @@ ul.row {
 .col-1-3 {
     width: calc(33.33% - (var(--section-padding)));
     float: left;
-    padding: 50%;
+    padding: calc(50%;
 }
 .col-1-2 {
     width: 50%;
