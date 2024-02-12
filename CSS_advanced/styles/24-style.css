@@ -184,3 +184,8 @@ ul.footer {
 .card-services .card-title {
     margin: 0;
 }
+.card-services a {
+    display: block;
+    padding: var(--font-size-medium) var(--font-size-medium);
+    background-color: var(--color-light-grey);
+}
