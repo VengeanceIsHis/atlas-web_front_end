@@ -233,6 +233,7 @@ ul.footer {
 .section-hero {
     background-size: 10rem auto;
     width: 90rem;
+    height: auto;
 }
 .section-hero .section-title {
     margin-bottom: 5rem;
