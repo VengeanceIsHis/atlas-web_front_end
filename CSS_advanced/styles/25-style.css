@@ -212,7 +212,7 @@ a:active .button {
     color: var(--button-color);
     text-decoration: var(--button-text-decoration);
 }
-a:hover .button {
+.button:hover {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
