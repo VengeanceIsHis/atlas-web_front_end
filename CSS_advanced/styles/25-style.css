@@ -204,7 +204,7 @@ ul.footer {
     background-color: var(--color-primary);
     text-decoration: none;
 }
-a:active .button {
+.button:active {
     display: var(--button-display);
     padding: var(--button-padding);
     border: var(--button-border);
