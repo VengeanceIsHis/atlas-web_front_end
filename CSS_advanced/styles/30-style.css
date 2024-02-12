@@ -311,6 +311,6 @@ ul.footer {
     bottom: 0;
     content: "";
 }
-.cardwork:hover .card-title {
+.card-work:hover .card-title {
     opacity: 1;
 }
